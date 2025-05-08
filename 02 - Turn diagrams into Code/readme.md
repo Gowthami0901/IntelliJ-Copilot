@@ -25,7 +25,6 @@ GitHub Copilot Vision enables developers to turn images and diagrams directly in
     - [**Demo 4: Data Modeling from ER Diagrams**](#demo-4-data-modeling-from-er-diagrams)
       - [**Entity Relationship Diagram**](#entity-relationship-diagram)
     - [**Demo 5: Generate Test Cases from Visual Flows**](#demo-5-generate-test-cases-from-visual-flows)
-      - [**Flowchart for Process Logic**](#flowchart-for-process-logic)
     - [**Demo 6: Parse Network Topology to Generate Config Scripts**](#demo-6-parse-network-topology-to-generate-config-scripts)
       - [**Network Topology Diagram**](#network-topology-diagram)
     - [**Demo 7: Screen Design to Frontend Code**](#demo-7-screen-design-to-frontend-code)
@@ -35,7 +34,6 @@ GitHub Copilot Vision enables developers to turn images and diagrams directly in
     - [**Demo 9: Hand-Drawn Diagram to Code**](#demo-9-hand-drawn-diagram-to-code)
       - [**Code Scaffolding and Suggestions**](#code-scaffolding-and-suggestions)
   - [**Conclusion**](#conclusion)
-
 
 ---
 
@@ -78,125 +76,72 @@ GitHub Copilot Vision is an AI tool that allows developers to interact with visu
 **Analytical Capabilities**
 - The output demonstrates the analytical capabilities of GitHub Copilot Vision in processing and interpreting complex diagrams.
 
-
 * **Upload a system or architecture diagram**
-![alt text](images/soa-architecture.png)
+![alt text](../images/soa-architecture.jpg)
 
 **Example Prompt:**
 * Ask Copilot in your IDE
 
-![alt text](images/img9.png)
+![alt text](../images/img9.jpg)
 
 **Copilot Output:**
 * Copilot generates a summary explaining components, flow, and interactions.
   
-![alt text](images/img10.png)
+![alt text](../images/img10.jpg)
 
 **Example Prompt:**
 * Ask Copilot in your IDE
 
-![alt text](images/img11.png)
+![alt text](../images/img11.jpg)
 
 **Copilot Output:**
-![alt text](images/img12.png)
+![alt text](../images/img12.jpg)
 
 ### **Demo 2: Generate Class Files from Class Diagrams**
 
 #### **UML Class Diagram**
-**Structure Representation**
-- The diagram illustrates how classes are structured, including attributes,  
-methods, and associations between them.
-
-**Input for Code Generation**
-- This UML class diagram serves as a crucial input for automated code  
-generation processes in software development.
-
-**Automatic Class Generation**
-- The tool automatically generates class stubs in Java or Kotlin from a provided  
-UML diagram, saving developers time.
-
-**Efficiency and Accuracy**
-- The generated class stubs maintain high accuracy and efficiency, reflecting the  
-structure defined in the UML diagram.
-
 
 * **Upload UML class diagram**
-![alt text](images/class-diagram.jpg)
-
+![alt text](../images/class-diagram.jpg)
 
 **Example Prompt:**
 * Ask Copilot in your IDE
 
-![alt text](images/img13.png)
+![alt text](../images/img13.jpg)
 
 **Copilot Output:**
-* Output: Java/Python classes with attributes and methods.
-
-![alt text](images/img14.png)
-
+![alt text](../images/img14.jpg)
 
 ### **Demo 3: Generate APIs and Models from Use Case Diagrams**
 
 #### **Use case Diagram**
-**System Interactions**
-- The diagram outlines key interactions within the system, providing insights into user roles and functionalities.
-
-**Code Generation Process**
-- Once defined, these interactions can be processed to generate the corresponding code outputs for development.
-
-**Automatically Generated API Endpoints**
-- The tool can generate API endpoints automatically, streamlining the development process and ensuring consistency.
-
-**Service Classes Overview**
-- Service classes define business logic and facilitate communication within the application.
-
-**Data Transfer Objects (DTOs)**
-- DTOs efficiently transfer data between layers, reducing redundancy and improving clarity.
-
 
 * **Upload use case diagram showing actors and use cases**
-  
-![alt text](images/uml-usecase-diagram.jpg)
+![alt text](../images/uml-usecase-diagram.jpg)
 
 **Example Prompt:**
 * Ask Copilot in your IDE
 
-![alt text](images/img15.png)
+![alt text](../images/img15.jpg)
 
 **Copilot Output:**
-* Copilot generates controller methods and DTOs.
-* Example: `registerUser()`, `loginUser()` API handlers.
-
-![alt text](images/img16.png)
+![alt text](../images/img16.jpg)
 
 ### **Demo 4: Data Modeling from ER Diagrams**
 
 #### **Entity Relationship Diagram**
 
-**Visual Representation of Data**
-- An ER diagram visually represents data models, showcasing entities and their relationships within the system.
-
-**ER Diagram to Schema**
-- The ER diagram serves as the foundation for generating a complete database schema automatically, improving accuracy.
-
-**Model Classes Generation**
-- Copilot generates corresponding model classes from the schema, enabling faster and more efficient development of applications.
-
-**Streamlined Development Process**
-- This automated generation process greatly reduces manual effort, allowing developers to focus on building features.
-
-
 * **Upload ERD with entities and relationships**
-![alt text](images/ER-Oder.png)
+![alt text](../images/ER-Oder.jpg)
 
 **Example Prompt:**
 * Ask Copilot in your IDE
 
-![alt text](images/img17.png)
+![alt text](../images/img17.jpg)
 
 **Copilot Output:**
-* Copilot generates SQL:
-![alt text](images/img18.png)
+![alt text](../images/img18.jpg)
+
 ```sql
 CREATE SCHEMA Sales;
 
@@ -204,27 +149,9 @@ CREATE TABLE Sales.Products (
     ProductID INT PRIMARY KEY,
     ProductName NVARCHAR(255) NOT NULL,
     SupplierID INT,
-```
+````
 
 ### **Demo 5: Generate Test Cases from Visual Flows**
-
-#### **Flowchart for Process Logic**
-
-**Visual Outline of Logic**
-- The flowchart serves as a clear visual representation of the business logic, making it easy to understand complex processes.
-
-**Deriving Test Scenarios**
-- By using the flowchart, Copilot can efficiently derive necessary test scenarios to ensure effective process validation.
-
-**Well-Structured Test Cases**
-- Unit and integration test cases are well-structured to cover various scenarios and edge cases for effective testing.
-
-**Thorough Logic Testing**
-- The application's logic is thoroughly tested through comprehensive unit and integration tests to ensure reliability.
-
-**Integration Testing**
-- Integration tests ensure that different components of the application work together seamlessly.
-
 
 * Upload logic or decision flowchart.
 * Copilot generates unit tests covering decision paths.
@@ -234,33 +161,18 @@ CREATE TABLE Sales.Products (
 
 #### **Network Topology Diagram**
 
-**Visual Representation**
-- The network topology diagram provides a visual representation of the network setup, helping to understand connections and layout.
-
-**Importance for Configuration**
-- This diagram is crucial for generating configuration scripts, ensuring proper network setup and functionality.
-
-**Tailored Configuration Scripts**
-- Configuration scripts are customised to meet specific networking needs efficiently.
-
-**Streamlined Network Setup**
-- These scripts simplify and accelerate the network setup process, saving time and reducing errors.
-
-**Environment-Specific Solutions**
-- By focusing on specific environments, scripts ensure optimal performance and compatibility across networks.
-
-
 * **Upload AWS/Azure network diagram**
-![alt text](<images/aws web app network diagram.png>)
+  !\[alt text]\(../images/aws web app network diagram.jpg)
 
 **Example Prompt:**
+
 * Ask Copilot in your IDE
 
-![alt text](images/img19.png)
+![alt text](../images/img19.jpg)
 
 **Copilot Output:**
-* Copilot generates Terraform, Bicep, or CLI scripts:
-![alt text](images/img20.png)
+![alt text](../images/img20.jpg)
+
 ```hcl
 resource "aws_lambda_function" "api_backend" {
     function_name = "backend"
@@ -272,29 +184,18 @@ resource "aws_lambda_function" "api_backend" {
 
 #### **Wireframe/Mockup of a UI Screen**
 
-**Foundation for Development**
-- Wireframes and mockups are essential for outlining the user interface, guiding developers in the coding process.
-
-**Design Elements**
-- Mockups incorporate key design elements that illustrate layout, navigation, and user interaction for developers.
-
-**Code Generation Basis**
-- The initial wireframe serves as a baseline for code generation, ensuring alignment between design and functionality.
-
-**Design to Code Alignment**
-- The process ensures alignment between design vision and code execution, making sure visual elements function correctly.
-
 * **Upload UI design (mockup, Figma export, sketch)**
-![alt text](images/website.png)
+  ![alt text](../images/website.jpg)
 
 **Example Prompt:**
+
 * Ask Copilot in your IDE
 
-![alt text](images/img21.png)
+![alt text](../images/img21.jpg)
 
 **Copilot Output:**
-* Copilot outputs HTML/CSS code:
-![alt text](images/img22.png)
+![alt text](../images/img22.jpg)
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -306,83 +207,54 @@ resource "aws_lambda_function" "api_backend" {
 </head>
 ```
 
-![alt text](images/img23.png)
+![alt text](../images/img23.jpg)
 
-### **Demo 8: Modify Existing Code Based on a Diagram**  
+### **Demo 8: Modify Existing Code Based on a Diagram**
 
 #### **Updated Component Diagram**
 
-**Component Diagram**
-- The updated component diagram illustrates the changes made to the system architecture, ensuring clarity in design.
-
-**Refactored Code**
-- The refactored code improves readability and maintainability while aligning with the new structure of the component diagram.
-
-**Updated Code Structure**
-- The updated code structure ensures that all components are consistently implemented across the system, enhancing overall quality.
-
-**Ensuring Consistency**
-- Consistency in code structure is crucial for collaboration and future development, making the system easier to navigate.
-
-
 * **Provide current code + updated diagram**
-![alt text](images/ER-Order-edited.png)
+  ![alt text](../images/ER-Order-edited.jpg)
 
 **Example Prompt:**
+
 * Ask Copilot in your IDE
 
-![alt text](images/img24.png)
+![alt text](../images/img24.jpg)
 
 **Copilot Output:**
-* Copilot generates patch/diff or new version reflecting changes.
-![alt text](images/img25.png)
-
-* Useful for updating schemas or API structure.
+![alt text](../images/img25.jpg)
 
 ### **Demo 9: Hand-Drawn Diagram to Code**
 
 #### **Code Scaffolding and Suggestions**
 
-**Code Scaffolding**
-- Copilot provides structured code scaffolding, which helps developers build applications efficiently and effectively.
-
-**Implementation Suggestions**
-- The suggestions generated by Copilot guide developers in implementing features, ensuring high-quality code output.
-
-**Bridging Design and Code**
-- The alignment of code output with hand-drawn diagrams bridges the gap between visual design and practical coding.
-
-
 * **Upload a photo of a whiteboard sketch**
-![alt text](images/architecture-drawing.jpg)
-
+  ![alt text](../images/architecture-drawing.jpg)
 
 **Example Prompt:**
+
 * Ask Copilot in your IDE
 
-![alt text](images/img26.png)
+![alt text](../images/img26.jpg)
 
 **Copilot Output:**
-* Copilot parses drawing → generates usable code or config.
-
-![alt text](images/img27.png) 
-
-* Example: Sketch of an API flow becomes Express.js handlers.
+![alt text](../images/img27.jpg)
 
 ---
-
 
 ## **Conclusion**
 
 **Simplifies Coding Process**
-- GitHub Copilot Vision Revolutionizes Coding by converting visuals into code instantly, making development more efficient.
 
+* GitHub Copilot Vision revolutionizes coding by converting visuals into code instantly, making development more efficient.
 
 **Integration with IntelliJ**
-- The integration of GitHub Copilot Vision with IntelliJ enhances productivity and streamlines the coding workflow for developers.
+
+* The integration of GitHub Copilot Vision with IntelliJ enhances productivity and streamlines the coding workflow for developers.
 
 **Fostering Collaboration**
-- GitHub Copilot Vision encourages collaboration between designers and developers, bridging the gap in the development process.
 
+* GitHub Copilot Vision encourages collaboration between designers and developers, bridging the gap in the development process.
 
 

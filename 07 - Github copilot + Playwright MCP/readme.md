@@ -46,7 +46,7 @@ Combining **Playwright with GitHub Copilot** (MCP - Multi-Client Proxy) enhances
   node -v
   npm -v
   ```
-  ![alt text](images/img57.png)
+  ![alt text](../images/img57.png)
 
 ---
 
@@ -69,8 +69,9 @@ Combining **Playwright with GitHub Copilot** (MCP - Multi-Client Proxy) enhances
   npm install @playwright/test --save-dev
   npx playwright install
   ```
+  ![alt text](../images/img58.png)
 * This will set up a basic Playwright project with browser support (Chromium, Firefox, WebKit).
-
+  
 ---
 
 ## **5. Setup Playwright MCP (Multi-Client Proxy)**

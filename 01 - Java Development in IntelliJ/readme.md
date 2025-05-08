@@ -1,6 +1,6 @@
 ## **Supercharge Java Development with GitHub Copilot Custom Instructions in IntelliJ!**
 
-Here’s a **step-by-step guide** for setting up **GitHub Copilot Custom Instructions** to tailor your Java code generation preferences. 
+Here’s a **step-by-step guide** for setting up **GitHub Copilot Custom Instructions** to tailor your Java code generation preferences.
 
 ## **Objective**
 
@@ -17,21 +17,21 @@ Ensure GitHub Copilot:
 ### **Step 1: Create `.github` Directory**
 
 * Navigate to the **root directory** of your project.
+
 * **Right-click** on the root folder in the Project Explorer.
+
 * Select **New → Directory** from the context menu.
-![alt text](images/img1.jpg)
+  ![Create directory](../images/img1.jpg)
 
 * Enter the folder name as:
-![alt text](images/img2.jpg)
+  ![Directory name](../images/img2.jpg)
 
 > ⚠️ Make sure to include the dot (`.`) at the beginning. This makes it a hidden directory in Unix-like systems.
-
 
 ### **Step 2: Create `copilot-instructions.md` File**
 
 * Inside `.github`, create a file:
-![alt text](images/img3.jpg)
- 
+  ![Create file](../images/img3.jpg)
 
 ### **Step 3: Add Your Custom Instructions**
 
@@ -45,22 +45,21 @@ Ensure GitHub Copilot:
 - Add @Override to all overridden methods.
 ```
 
-![alt text](images/img4.jpg)
-
+![Instruction example](../images/img4.jpg)
 
 #### **Example Prompt:**
-Ask Copilot in your IDE:
 
-![alt text](images/img5.jpg)
+Ask Copilot in your IDE:
+![Prompt example](../images/img5.jpg)
 
 #### **Copilot Output:**
-![alt text](images/img6.jpg)
 
+![Output example](../images/img6.jpg)
 
 #### **Java Class Instructions**
-Update the Java Class Instructions as shown in below :
 
-![alt text](images/img7.jpg)
+Update the Java Class Instructions as shown below:
+![Updated instructions](../images/img7.jpg)
 
 ---
 
@@ -69,13 +68,14 @@ Update the Java Class Instructions as shown in below :
 You don't need to reference the file manually every time. Once it's in the project, GitHub Copilot uses it automatically as context.
 
 #### **Example Prompt:**
+
 Ask Copilot in your IDE:
 
 > “Create a Java class named `Booking` that implements a `Payment` interface.”
 
 #### **Copilot Output:**
 
-![alt text](images/img8.jpg)
+![Java class output](../images/img8.jpg)
 
 ```java
 import org.slf4j.Logger;
@@ -114,3 +114,4 @@ public class Booking implements Payment {
     }
 }
 ```
+

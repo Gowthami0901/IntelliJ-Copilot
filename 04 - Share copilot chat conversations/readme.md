@@ -14,7 +14,7 @@
 
 * Go to `GitHub.com`.
 * Navigate to **Copilot Chat** via the left menu or search bar.
-![alt text](images/img41.png)
+![alt text](../images/img41.png)
 * Click on **"Open in Immersive View"** to get the full-screen chat experience.
 
 #### **Stpe2: Have a Chat With Copilot**
@@ -23,7 +23,7 @@
 * Let Copilot respond with suggestions or code snippets.
 * Continue the chat as needed.
 
-![alt text](images/img42.png)
+![alt text](../images/img42.png)
 
 
 #### **Stpe3: Click on “Share” and Generate Shareable Link**
@@ -32,11 +32,11 @@
 * A dialog box will appear.
 * Click **“Share”** again in the dialog box to generate the unique URL.
 
-![alt text](images/img43.png)
+![alt text](../images/img43.png)
 
 #### **Step4: Send the Link to a Teammate**
 * Copy the URL to your clipboard.
-![alt text](images/img44.png)
+![alt text](../images/img44.png)
 * Paste the link in Slack, Teams, email, or wherever your team collaborates.
 * The teammate will be able to **view the full conversation**.
 
