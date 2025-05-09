@@ -61,7 +61,7 @@ Combining **Playwright with GitHub Copilot** (MCP - Multi-Client Proxy) enhances
 
 ## **4. Initialize a Playwright Project**
 
-* Open a new folder in VS Code (for example: `MCP_Test_Automation`).
+* Open a new folder in IntelliJ (for example: `MCP_Test_Automation`).
 * Open the terminal (\`Ctrl+\`\`) and run:
 
   ```bash
@@ -70,8 +70,10 @@ Combining **Playwright with GitHub Copilot** (MCP - Multi-Client Proxy) enhances
   npx playwright install
   ```
   ![alt text](../images/img58.png)
+
 * This will set up a basic Playwright project with browser support (Chromium, Firefox, WebKit).
-  
+  ![alt text](../images/img59.png)
+
 ---
 
 ## **5. Setup Playwright MCP (Multi-Client Proxy)**
@@ -99,6 +101,7 @@ Combining **Playwright with GitHub Copilot** (MCP - Multi-Client Proxy) enhances
   npx playwright
   ```
 * Ensure that the MCP Server is running.
+  ![alt text](../images/img60.png)
 
 ---
 
@@ -168,3 +171,55 @@ Combining **Playwright with GitHub Copilot** (MCP - Multi-Client Proxy) enhances
 ## **9. Run Playwright Tests**
 
 * Start a local server for the HTML file:
+
+  ```bash
+  npx live-server --port=5500
+  ```
+  
+  ![alt text](../images/img61.png)
+
+  ![alt text](../images/img62.png)
+
+* Run the Playwright tests:
+
+  ```bash
+  npx playwright test
+  ```
+* This will execute both the valid and invalid login tests.
+  ![alt text](../images/img63.png)
+
+---
+
+## **10. Automate Test Generation Using GitHub Copilot**
+
+* Go to the GitHub Copilot Chat (Ctrl+Alt+C).
+* Set the mode to `GPT-4` with `Agent Mode`.
+* Provide the following prompt:
+
+  ```plaintext
+  Create a UI test automation script using Playwright for my login page, 
+  with scenarios for both valid and invalid login.
+  ```
+
+  ![alt text](../images/img64.png)
+
+---
+
+## **11. Debugging with Copilot**
+
+* If any test fails, you can ask Copilot for suggestions:
+
+  ```plaintext
+  Why is my test failing?
+  ```
+* Copilot will provide debugging suggestions.
+
+---
+
+## **Conclusion**
+
+In this guide, we explored how to efficiently set up UI test automation using Playwright combined with GitHub Copilot (MCP). By leveraging Playwright's robust cross-browser support and GitHub Copilot's AI-powered code generation, you can rapidly build, maintain, and optimize your test automation suite.
+
+From installation and configuration to creating and executing test cases, this guide provided a hands-on approach to automating web application testing. With the added benefit of GitHub Copilot's ability to auto-generate and debug test scripts, you can significantly reduce manual effort while maintaining high-quality test coverage.
+
+This combination empowers developers and QA engineers to quickly validate web applications, ensure consistent functionality, and accelerate their development workflows. Start exploring advanced scenarios with Playwright and Copilot to further enhance your automation capabilities.
