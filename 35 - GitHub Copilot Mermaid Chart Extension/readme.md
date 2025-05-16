@@ -157,9 +157,6 @@ flowchart TD
 ```
 
 * Modify this code to add or remove steps.
-  
-**Output**
-![alt text](../images/img167.png)
 
 ---
 
