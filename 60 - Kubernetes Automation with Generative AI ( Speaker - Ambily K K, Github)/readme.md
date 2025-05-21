@@ -22,6 +22,7 @@ Kubernetes is an open-source platform for automating the deployment, scaling, an
 ### **Understanding GitHub Copilot and Its Role in Automation**
 GitHub Copilot is an AI-powered code completion tool that assists with code generation, command-line tasks, and automation scripts. When integrated with Kubernetes, it can generate YAML configurations, Helm charts, and Kubernetes commands, reducing manual scripting time.
 
+
 ### **How GitHub Copilot Works with CLI and Code Editors**
 * In CLI: Copilot can be used to generate commands, scripts, and configuration files directly from the terminal.
 * In Code Editors: Copilot provides code completions, suggestions, and automated configurations.
@@ -123,6 +124,7 @@ GitHub Copilot can generate and assist with Kubernetes commands directly from th
    }
    ```
 
+---
 
 ### **GitHub Actions Workflow**
 * **Prompt:** "Generate a GitHub Actions workflow for Kubernetes deployment."

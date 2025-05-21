@@ -5,23 +5,18 @@
 Before using GitHub Copilot with Jupyter Notebooks in Visual Studio Code (VS Code), ensure you have the following:
 
 1. **Visual Studio Code (VS Code)**:
-
    * Download and install from the [official website](https://code.visualstudio.com/).
 
 2. **Jupyter Extension for VS Code**:
-
    * Install the Jupyter extension by searching for "Jupyter" in the Extensions view (`Ctrl+Shift+X`).
 
 3. **GitHub Copilot Extension**:
-
    * Install the GitHub Copilot extension from the Extensions view.
 
 4. **GitHub Account**:
-
    * Sign in to your GitHub account within VS Code to activate Copilot.
 
 5. **Python Environment**:
-
    * Ensure you have Python installed. Download it from the [official website](https://www.python.org/downloads/).
 
 ---

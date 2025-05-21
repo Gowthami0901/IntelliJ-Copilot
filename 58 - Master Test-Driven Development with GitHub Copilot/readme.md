@@ -1,11 +1,10 @@
 # **Master Test-Driven Development with GitHub Copilot**
 
 ## **Introduction**
-
 Test-Driven Development (TDD) is a software development approach where test cases are written before the actual code. GitHub Copilot can significantly enhance this process by assisting in generating test cases and writing the corresponding code efficiently. In this guide, we will explore how to use GitHub Copilot to practice TDD using a Password Validator example.
 
-## **What is Test-Driven Development (TDD)?**
 
+## **What is Test-Driven Development (TDD)?**
 TDD is a software development methodology that follows three main steps:
 
 1. **Write Tests First:** Create unit tests that define the expected behavior of the code.
@@ -140,7 +139,6 @@ if (!char.IsLetter(password[0])) return false;
 ---
 
 ## **Conclusion**
-
 Test-Driven Development (TDD) using GitHub Copilot can significantly speed up development by automating the generation of test cases and the corresponding code. Following this guide, you have learned how to:
 
 * Set up a TDD project.

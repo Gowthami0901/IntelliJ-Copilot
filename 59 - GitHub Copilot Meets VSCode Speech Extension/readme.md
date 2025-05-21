@@ -108,12 +108,10 @@ This guide provides a comprehensive step-by-step approach to using the VS Code S
 ---
 
 ## **Troubleshooting**
-
 * If the microphone icon is not visible, ensure microphone permissions are granted.
 * If the voice command is not recognized, try speaking clearly and check your microphone settings.
 
 ---
 
 ## **Conclusion**
-
 The VS Code Speech Extension combined with GitHub Copilot provides an efficient way to code using your voice. Experiment with various voice prompts to fully leverage this integration.

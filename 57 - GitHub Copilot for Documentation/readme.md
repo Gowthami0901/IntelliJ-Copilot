@@ -1,13 +1,11 @@
 # **Step-by-Step Guide to Using GitHub Copilot for Documentation**
 
 ## **Introduction**
-
 GitHub Copilot is an AI-powered code assistant developed by GitHub, designed to help developers write code faster and more efficiently. In addition to code generation, Copilot is highly effective for creating detailed documentation directly within your codebase. This guide will take you through the various ways you can leverage GitHub Copilot to automate and enhance your code documentation process.
 
 ---
 
 ## **1. Setting Up GitHub Copilot in VS Code**
-
 1. Ensure you have VS Code installed.
 2. Install the GitHub Copilot extension from the VS Code marketplace.
 3. Sign in using your GitHub account and ensure Copilot is activated.
@@ -15,7 +13,6 @@ GitHub Copilot is an AI-powered code assistant developed by GitHub, designed to 
 ---
 
 ## **2. Understanding the Importance of Documentation**
-
 * Documentation makes code more readable and maintainable.
 * It helps other developers understand the code's functionality without delving into its logic.
 * It is crucial for API documentation, code readability, and external integration.
